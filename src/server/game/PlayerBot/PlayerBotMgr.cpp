@@ -1578,7 +1578,7 @@ void PlayerBotMgr::AllPlayerBotRandomLogin(const char* name)
 
             if (name[0] != '\0')
             {
-                // ================== 修复原作者的低级 Bug ==================
+                // ================== 修复 Bug ==================
                 // 原代码：for (auto i = 0; i < pInfo->characters.size(); ++i) 
                 // 原代码：if (strcmp(name, pInfo->characters[i].name.c_str()) == 0)
                 // 修复为使用迭代器遍历 map：
